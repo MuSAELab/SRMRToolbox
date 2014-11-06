@@ -1,0 +1,33 @@
+@ARTICLE{TASLP2010, 
+	author={Falk, Tiago H. and Chenxi Zheng and Wai-Yip Chan}, 
+	journal={Audio, Speech, and Language Processing, IEEE Transactions on}, 
+	title={A Non-Intrusive Quality and Intelligibility Measure of Reverberant and Dereverberated Speech}, 
+	year={2010}, 
+	month={Sept}, 
+	volume={18}, 
+	number={7}, 
+	pages={1766-1774}, 
+	doi={10.1109/TASL.2010.2052247}, 
+	ISSN={1558-7916}
+}
+
+@article{TASLP2014,
+    author = "Santos, João F. and Falk, Tiago H.",
+    number = "12",
+    page = "2197-2206",
+    journal = "IEEE Transactions on Audio, Speech, and Language Processing",
+    volume = "22",
+    doi = "10.1109/TASLP.2014.2363788",
+    issn = "2329-9290",
+    title = "Updating the {SRMR} Metric for Improved Intelligibility Prediction for Cochlear Implant Users",
+    month = "December",
+    year = "2014"
+}
+
+@inproceedings{IWAENC2014,
+    author = "Santos, João F. and Senoussaoui, Mohammed and Falk, Tiago H.",
+    title = "An Updated Objective Intelligibility Estimation Metric for Normal Hearing Listeners under Noise and Reverberation",
+    month = "September",
+    year = "2014",
+    booktitle = "International Workshop on Acoustic Signal Enhancement (IWAENC)"
+}

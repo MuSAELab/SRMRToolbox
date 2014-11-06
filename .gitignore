@@ -1,0 +1,4 @@
+*.m~
+*.mex*
+libs/PreProc/codegen/
+libs/vad/codegen/
