@@ -1,4 +1,5 @@
-% Before using this test script, call startup.m to set up the path and compile the MEX extensions
+% Before using this test script, set up the path and compile the MEX extensions
+% as instructed in the README file.
 
 % First possible syntax: pass filename as argument, without sampling rate
 file = 'test.wav';
