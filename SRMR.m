@@ -116,6 +116,10 @@ end
 modFilterCFs = computeModulationCFs(minCF, maxCF, nModFilters);        
 w = hamming(wLength);
 
+% Preallocating energy matrix
+nFrames = 1+ceil((size(tempEnv, 2)-wInc)/wInc);
+energy = zeros(nCochlearFilters, nModFilters, nFrames);
+
 for k=1:nCochlearFilters
     modulationOutput = modulationFilterBank(tempEnv(k,:), modFilterCFs, mfs, 2);
     for m=1:nModFilters
