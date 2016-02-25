@@ -45,7 +45,7 @@ Implementations 1 to 3 are all called from the same M-file, `SRMR.m`. The functi
 - `'fast', F`: flag to activate (`F = 1`)/deactivate (`F = 0`) the fast implementation. The default is `'fast', 0` (this can be omitted).
 - `'norm', N`: flag to activate (`N = 1`)/deactivate (`N = 0`) the normalization step in the modulation spectrum representation, used for variability reduction. The default is `'norm', 0`.
 - `'minCF', cf1`: value of the center frequency of the first filter in the modulation filterbank. The default value is 4 Hz.
-- `'maxCF', cf8`: value of the center frequency of the first filter in the modulation filterbank. The default value is 128 Hz if the normalization is off and 30 Hz if normalization is on.
+- `'maxCF', cf8`: value of the center frequency of the last filter in the modulation filterbank. The default value is 128 Hz if the normalization is off and 30 Hz if normalization is on.
 
 The outputs are `ratio`, which is the SRMR score, and `energy`, a 3D matrix with the per-frame modulation spectrum extracted from the input.
 
