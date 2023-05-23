@@ -134,13 +134,13 @@ BW = cochFilt_BW(K90perc(1));
 
 cutoffs = calc_cutoffs(modFilterCFs, fs, 2);
 
-if (BW > cutoffs(5)) && (BW < cutoffs(6))
+if (BW >= cutoffs(5)) && (BW < cutoffs(6))
     Kstar=5;
-elseif (BW > cutoffs(6)) && (BW < cutoffs(7))
+elseif (BW >= cutoffs(6)) && (BW < cutoffs(7))
     Kstar=6;
-elseif (BW > cutoffs(7)) && (BW < cutoffs(8))
+elseif (BW >= cutoffs(7)) && (BW < cutoffs(8))
     Kstar=7;
-elseif (BW > cutoffs(8))
+elseif (BW >= cutoffs(8))
     Kstar=8;
 end
 
